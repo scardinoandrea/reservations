@@ -4,7 +4,7 @@
 <!-- PROJECT SHIELDS -->
 
 [![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
+[![License: MIT][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -161,8 +161,8 @@ Project Link: [https://github.com/scardinoandrea/reservations](https://github.co
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/scardinoandrea/reservations.svg?style=for-the-badge
 [contributors-url]: https://github.com/scardinoandrea/reservations/graphs/contributors
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/scardinoandrea/reservations/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/scardinoandrea/reservations.svg?style=for-the-badge
+[license-url]: https://github.com/scardinoandrea/reservations/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/andrea-scardino
 [product-screenshot]: images/screenshot.png
