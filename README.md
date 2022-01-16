@@ -11,8 +11,6 @@
 
   <p align="center">
    Overview of hotel reservations per country
-    <br />
-    <a href="https://github.com/scardinoandrea/reservations">View Demo</a>
   </p>
 </div>
 
@@ -57,6 +55,7 @@
 ### Built With
 
 * [React.js](https://reactjs.org/)
+* [Material UI](https://mui.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -64,9 +63,6 @@
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -132,7 +128,6 @@ Project Link: [https://github.com/scardinoandrea/reservations](https://github.co
 ## Acknowledgments
 
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* [Material UI](https://mui.com/)
 * [Configuring Rules](https://eslint.org/docs/user-guide/configuring/rules#configuring-rules)
 * [The package.json guide](https://nodejs.dev/learn/the-package-json-guide)
 
