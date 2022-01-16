@@ -1,0 +1,56 @@
+.MuiBox-root{
+    position: static;
+    width: 394px;
+    max-height: 52px;
+    left: 0px;
+    top: 44px;
+    background: #FFFFFF;
+    border-bottom: #E1E5EC 1px solid;
+    .MuiGrid-root{
+        width: 100%; 
+        padding: 8px 16px; 
+        margin: 0;
+        .MuiGrid-item{
+            padding: 0 10px 0 0; 
+        }
+    }
+}
+
+.MuiTypography-root{
+    color: #4E6477
+}
+
+.small-text{
+    font-size: 10px;
+    width: max-content;
+    color: #60778B;
+    margin-top: 4px;
+}
+
+.right-alignment{
+    text-align: right
+}
+
+.MuiLinearProgress-root{
+    height: 8px;
+    top: 8px;
+    background-color: #E1E5EC;
+    
+    border-radius: 4px;
+
+    .MuiLinearProgress-bar{
+        background-color: #035086;
+    }
+}
+
+
+.stadistics-positive{
+    color: #049D01
+}
+
+.stadistics-negative{
+    color: #EB2C35
+}
+
+
+
