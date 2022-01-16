@@ -1,4 +1,4 @@
-export const COUNTRY_CODE_MAPPING = {
+const COUNTRY_CODE_MAPPING = {
   AD: 'Andorra',
   AE: 'United Arab Emirates',
   AF: 'Afghanistan',
@@ -247,5 +247,7 @@ export const COUNTRY_CODE_MAPPING = {
   YT: 'Mayotte',
   ZA: 'South Africa',
   ZM: 'Zambia',
-  ZW: 'Zimbabwe'
-};
+  ZW: 'Zimbabwe',
+}
+
+export default [COUNTRY_CODE_MAPPING]

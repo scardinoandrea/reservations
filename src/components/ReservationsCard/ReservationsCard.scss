@@ -1,0 +1,41 @@
+.MuiPaper-root {
+    max-height: 308px; 
+    max-width: 394px;
+    .MuiCardContent-root	 {
+        padding: 0;
+        max-height: 260px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .MuiCardHeader-root {
+        max-height: 44px; 
+        border-bottom: #E1E5EC 1px solid;
+        .MuiCardHeader-title {
+            font-weight: 700;
+            color: #2A3A48;
+            font-size: 12px;
+        } 
+    }
+}
+
+.item-padding {
+    padding-left: 0;
+}
+
+//scrollbar
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

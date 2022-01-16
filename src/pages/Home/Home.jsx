@@ -1,9 +1,12 @@
 import React from 'react'
-import './Home.css'
+
+import ReservationsCard from '../../components/ReservationsCard'
 
 function Home() {
   return (
-    <div className="Home" />
+    <div className="layout">
+      <ReservationsCard title="Guest Country" />
+    </div>
   )
 }
 

@@ -1,14 +1,5 @@
 <div id="top"></div>
 
-
-<!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![License: MIT][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -111,29 +102,20 @@ This is an example of how to list things you need to use the software and how to
 ## Roadmap
 
 - [x] Create git and base project
-- [ ] Create base card
-    - [ ] Add country
-    - [ ] Add absolute number of reservations
-    - [ ] Design progress bar
-    - [ ] Design change in reservations
+- [x] Create base card
+    - [x] Add country
+    - [x] Add absolute number of reservations
+    - [x] Design progress bar
+    - [x] Design change in reservations
+    - [x] Add fonts
 - [ ] Call endpoint (https://data.otainsight.com/public-data/frontend-hiring/guest-country-sample.json)
     - [ ] Calculate percentage of progress bar 
     - [ ] Sort by number of reservations and then by change
 - [ ] Map countries
-- [ ] Implement infinite scrolling (only 5 rows visible a time)
+- [ ] Implement lazy loading (optional)
 - [ ] Check Readme
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -149,9 +131,10 @@ Project Link: [https://github.com/scardinoandrea/reservations](https://github.co
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+* [Material UI](https://mui.com/)
+* [Configuring Rules](https://eslint.org/docs/user-guide/configuring/rules#configuring-rules)
+* [The package.json guide](https://nodejs.dev/learn/the-package-json-guide)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
