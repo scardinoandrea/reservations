@@ -8,8 +8,10 @@ import {
 
 function ReservationsBox({ guest }) {
   const {
-    countryName, numberOfReservations, stadistics, percentage,
+    countryName, numberOfReservations, change, percentage,
   } = guest
+
+  const showChangeColor = change > 0 ? 'stadistics-positive' : 'stadistics-negative'
 
   return (
     <Box className="reservation-box">
@@ -25,8 +27,8 @@ function ReservationsBox({ guest }) {
           </Typography>
         </Grid>
         <Grid item xs={2}>
-          <Typography variant="caption" className={stadistics !== 0 && (stadistics > 0 ? 'stadistics-positive' : 'stadistics-negative')}>
-            {stadistics > 0 ? `+${stadistics}` : stadistics}
+          <Typography variant="caption" className={change !== 0 ? showChangeColor : ''}>
+            {change > 0 ? `+${change}` : change}
           </Typography>
         </Grid>
         <Grid item xs={10}>

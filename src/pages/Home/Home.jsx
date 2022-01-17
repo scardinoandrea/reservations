@@ -24,7 +24,7 @@ function Home() {
         numberOfReservations: rawGuests[i].value.nr_of_rooms,
         countryName: COUNTRY_CODE_MAPPING[rawGuests[i].display_code],
         percentage: (rawGuests[i].value.nr_of_rooms / maxReservations) * 100,
-        stadistics: rawGuests[i].value.nr_of_rooms - rawGuests[i].reference_value.nr_of_rooms,
+        change: rawGuests[i].value.nr_of_rooms - rawGuests[i].reference_value.nr_of_rooms,
       })
     }
 
@@ -32,7 +32,7 @@ function Home() {
     setGuest(data
       .sort((a, b) => {
         if (b.numberOfReservations === a.numberOfReservations) {
-          return b.stadistics - a.stadistics
+          return b.change - a.change
         }
         return b.numberOfReservations - a.numberOfReservations
       }))

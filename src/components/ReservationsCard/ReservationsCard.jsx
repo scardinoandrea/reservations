@@ -3,7 +3,7 @@ import {
   Card, CardHeader, CardContent, Grid,
 } from '@mui/material'
 import {
-  arrayOf, objectOf, string,
+  arrayOf, number, objectOf, oneOfType, string,
 } from 'prop-types'
 import ReservationsBox from '../ReservationsBox'
 
@@ -33,7 +33,7 @@ function ReservationsCard({ title, guests }) {
 
 ReservationsCard.propTypes = {
   title: string.isRequired,
-  guests: arrayOf(objectOf(string)).isRequired,
+  guests: arrayOf(objectOf(oneOfType([string, number]))).isRequired,
 }
 
 export default ReservationsCard
