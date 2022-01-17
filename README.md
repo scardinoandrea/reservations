@@ -33,7 +33,6 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -45,13 +44,6 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 ### Built With
 
 * [React.js](https://reactjs.org/)
@@ -59,14 +51,11 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -82,17 +71,12 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
+3. Run the project
+   ```sh
+   npm start
+   ```
    
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -104,12 +88,11 @@ This is an example of how to list things you need to use the software and how to
     - [x] Design progress bar
     - [x] Design change in reservations
     - [x] Add fonts
-- [ ] Call endpoint (https://data.otainsight.com/public-data/frontend-hiring/guest-country-sample.json)
-    - [ ] Calculate percentage of progress bar 
-    - [ ] Sort by number of reservations and then by change
-- [ ] Map countries
-- [ ] Implement lazy loading (optional)
-- [ ] Check Readme
+- [x] Call endpoint (https://data.otainsight.com/public-data/frontend-hiring/guest-country-sample.json)
+    - [x] Calculate percentage of progress bar 
+    - [x] Sort by number of reservations and then by change
+- [x] Map countries
+- [x] Check Readme
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -130,6 +113,7 @@ Project Link: [https://github.com/scardinoandrea/reservations](https://github.co
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 * [Configuring Rules](https://eslint.org/docs/user-guide/configuring/rules#configuring-rules)
 * [The package.json guide](https://nodejs.dev/learn/the-package-json-guide)
+* [Fix CORS Error [SOLVED] | React Tutorial](https://www.youtube.com/watch?v=hxyp_LkKDdk&list=FLEC2K8ZgmM6FVvCD899w1OQ&index=1&t=1320s&ab_channel=HongLy)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -137,10 +121,4 @@ Project Link: [https://github.com/scardinoandrea/reservations](https://github.co
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/scardinoandrea/reservations.svg?style=for-the-badge
-[contributors-url]: https://github.com/scardinoandrea/reservations/graphs/contributors
-[license-shield]: https://img.shields.io/github/license/scardinoandrea/reservations.svg?style=for-the-badge
-[license-url]: https://github.com/scardinoandrea/reservations/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/andrea-scardino
 [product-screenshot]: images/screenshot.png
