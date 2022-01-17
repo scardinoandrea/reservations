@@ -2,6 +2,7 @@
   "name": "reservations",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://data.otainsight.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

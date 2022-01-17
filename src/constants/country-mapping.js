@@ -250,4 +250,4 @@ const COUNTRY_CODE_MAPPING = {
   ZW: 'Zimbabwe',
 }
 
-export default [COUNTRY_CODE_MAPPING]
+export default COUNTRY_CODE_MAPPING
