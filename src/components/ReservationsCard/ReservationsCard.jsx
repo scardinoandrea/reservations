@@ -16,9 +16,8 @@ function ReservationsCard({ title, guests }) {
       <CardContent>
         <Grid container>
           {guests.map((guest) => (
-            <Grid item className="item-padding" xs={12}>
+            <Grid key={guest.id} item className="item-padding" xs={12}>
               <ReservationsBox
-                key={guest.id}
                 guest={guest}
               />
             </Grid>

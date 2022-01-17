@@ -4,21 +4,20 @@ import ReservationsCard from '../../components/ReservationsCard'
 import COUNTRY_CODE_MAPPING from '../../constants/country-mapping'
 
 function Home() {
-  // const [rawGuests, setRawGuest] = useState([])
   const [guests, setGuest] = useState([])
 
   const formatGuests = (rawGuests) => {
     const data = []
     let maxReservations = 0
 
-    // Find the biggest amount of reservations
+    // Find the hotel with the most reservations
     for (let i = 0; i < rawGuests.length; i += 1) {
       if (rawGuests[i].value.nr_of_rooms > maxReservations) {
         maxReservations = rawGuests[i].value.nr_of_rooms
       }
     }
 
-    // Format array of guests
+    // Format array of guests to a easier structure to map into the card
     for (let i = 0; i < rawGuests.length; i += 1) {
       data.push({
         id: rawGuests[i].id,
@@ -29,6 +28,7 @@ function Home() {
       })
     }
 
+    // Sort first by number of reservations and then by change in the reservations
     setGuest(data
       .sort((a, b) => {
         if (b.numberOfReservations === a.numberOfReservations) {
@@ -54,9 +54,8 @@ function Home() {
   }, [])
 
   return (
-    <div>
-      <ReservationsCard title="Guest Country" guests={guests} />
-    </div>
+    // A 'card' made up 'boxes' shows all countries
+    <ReservationsCard title="Guest Country" guests={guests} />
   )
 }
 

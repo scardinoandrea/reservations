@@ -2,7 +2,9 @@ import React from 'react'
 import {
   Box, Grid, LinearProgress, Typography,
 } from '@mui/material'
-import { objectOf, string } from 'prop-types'
+import {
+  number, objectOf, oneOfType, string,
+} from 'prop-types'
 
 function ReservationsBox({ guest }) {
   const {
@@ -23,7 +25,7 @@ function ReservationsBox({ guest }) {
           </Typography>
         </Grid>
         <Grid item xs={2}>
-          <Typography variant="caption" className={stadistics > 0 ? 'stadistics-positive' : 'stadistics-negative'}>
+          <Typography variant="caption" className={stadistics !== 0 && (stadistics > 0 ? 'stadistics-positive' : 'stadistics-negative')}>
             {stadistics > 0 ? `+${stadistics}` : stadistics}
           </Typography>
         </Grid>
@@ -41,7 +43,7 @@ function ReservationsBox({ guest }) {
 }
 
 ReservationsBox.propTypes = {
-  guest: objectOf(string).isRequired,
+  guest: objectOf(oneOfType([string, number])).isRequired,
 }
 
 export default ReservationsBox
